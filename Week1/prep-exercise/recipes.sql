@@ -34,6 +34,7 @@ CREATE TABLE recipe_ingredients (
   PRIMARY KEY (recipe_id, ingredient_id),
   FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id),
   FOREIGN KEY (ingredient_id) REFERENCES ingredients(ingredient_id)
+<<<<<<< HEAD
 );
 
 
@@ -45,3 +46,6 @@ A recipe can have multiple steps to follow, but each step belongs to only one re
 */
 
 
+=======
+);
+>>>>>>> 352d4ea634547e3c9d7a1a5e595cbbe677c7a08b
